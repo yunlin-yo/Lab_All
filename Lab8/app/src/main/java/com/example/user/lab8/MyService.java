@@ -1,4 +1,4 @@
-package com.example.user.myapplication;
+package com.example.user.lab8;
 
 import android.app.Service;
 import android.content.Intent;
@@ -7,6 +7,7 @@ import android.os.IBinder;
 public class MyService extends Service {
     public MyService() {
     }
+
     public void onCreate(){
         new Thread(new Runnable() {
             @Override
